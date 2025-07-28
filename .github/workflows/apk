@@ -1,0 +1,6 @@
+  - name: Upload APK
+    uses: actions/upload-artifact@v3
+    with:
+      name: app-debug.apk
+      path: GithubActionAndroidCI/app/build/outputs/apk/debug/app-debug.apk
+ 
